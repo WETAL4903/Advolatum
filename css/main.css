@@ -1,0 +1,7 @@
+body{
+  position: relative;
+  width: 1920px;
+  height: 3858px;
+  background-color: slategray;
+  /* background: linear-gradient(180deg, #0E141C 0%, #0A0F14 100%); */
+}
