@@ -2,16 +2,43 @@ body{
   position: relative;
   width: 1920px;
   height: 3858px;
-  /* background-color: slategray; */
   background: linear-gradient(180deg, #0E141C 0%, #0A0F14 100%);
 }
+
+/* header style */
+
 .header {
   position: absolute;
   width: 1568px;
   height: 85px;
   left: 176px;
   top: 43px;
+}
+.header-logo-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  width: 164px;
+  height: 50px;
+  padding: 0px 40px 20px 0px;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px -14px;
+}
+
+.header-logo{
+  width: 124px;
+  height: 30px;
+
+  position: absolute;
+  left: 0.95%;
+  right: 0.95%;
+  top: 0%;
+  bottom: 0%;
 }
 
 .nav {
@@ -34,7 +61,7 @@ body{
 }
 
 .nav-link{
-  font-family: 'Roboto Mono', monospace;
+  font-family:"UindbaseFont",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -50,7 +77,7 @@ body{
 
 .gender {
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
   position: absolute;
   left: 14.35%;
   right: 62.04%;
@@ -60,7 +87,7 @@ body{
 }
 
 .gender-link{
-  font-family:'Roboto Mono', monospace;
+  font-family:"UindbaseFont",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -89,14 +116,242 @@ body{
   
 }
 
+/* section baner style */
 
-
+.baner{
+  position:absolute;
+  width: 1920px;
+  height: 619px;
+  left: 0px;
+  top: 263px;
+}
 
 .baner-logo {
+  position: absolute;
+  width: 209.94px;
+  height: 49.94px;
+  left: 912px;
+  top: 263px;
 }
+
+.baner-title{
+  position: absolute;
+  width: 1313px;
+  height: 244px;
+  left: 350px;
+  top: 360px;
+
+  font-family:"Usually-font";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 130px;
+  line-height: 113px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+
+.baner-title-bg{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 8.97%;
+  bottom: 83.13%;
+
+  font-family:"Usually-font";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 170px;
+  line-height: 148px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #1F252D;
+
+  z-index: -1;
+}
+
 .baner-slang {
+  position: absolute;
+  width: 211px;
+  height: 25px;
+  left: 904px;
+  top: 621px;
+
+  font-family:"UindbaseFont",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  text-shadow: 10px 24px 10px rgba(0, 0, 0, 0.27);
+
 }
-.baner-slang-title {
-}
+
 .btn {
+  position: absolute;
+  width: 205px;
+  height: 53px;
+  left: 1472px;
+  top: 829px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  color: #D1C12B;
+  background: rgba(15, 21, 29, 0.2);
+  border: 2px solid #D1C12B;
+  border-radius: 50px;
+
+  font-family: 'Rosario', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+
 }
+
+
+/* section carousel style */
+
+.carousel{
+  position: absolute;
+  width: 1568px;
+  height: 893px;
+  left: 176px;
+  top: 1096px;
+  
+}
+
+.carousel-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  isolation: isolate;
+
+  position: absolute;
+  width: 1568px;
+  height: 216px;
+  left: calc(50% - 1568px/2);
+  top: calc(50% - 216px/2 - 294.5px);
+
+  width: 842px;
+  height: 100px;
+
+  filter: drop-shadow(9px 9px 4px rgba(0, 0, 0, 0.25));
+
+  font-family:"UindbaseFont",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+
+.carousel-title-double{
+  width: 1568px;
+  height: 160px;
+
+  font-family: 'Usually-font';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 160px;
+  text-transform: uppercase;
+
+  color: #1F252D;
+
+}
+
+.carousel-slider{
+  position: absolute;
+  width: 1248px;
+  height: 587px;
+  left: 219px;
+  top: 260px;
+
+  background: url(/img/photo_2022-10-05\ 23.01.png);
+}
+
+.carousel > p {
+  position: absolute;
+  width: 300px;
+  height: 45px;
+  left: 1063px;
+  top: 567px;
+
+  font-family: 'UindbaseFont',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  z-index: 1;
+
+}
+
+.carousel-btn{
+
+  position: absolute;
+  width: 205px;
+  height: 53px;
+  left: 1114px;
+  top: 632px;
+
+  border: 2px solid #D1C12B;
+  border-radius: 50px;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  color: #D1C12B;
+  background: rgba(15, 21, 29, 0.2);
+  border: 2px solid #D1C12B;
+  border-radius: 50px;
+
+  font-family: 'Rosario', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+
+
+
+
+
+
+

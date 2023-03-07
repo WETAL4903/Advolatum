@@ -100,3 +100,17 @@ label {
 legend {
 	display: block;
 }
+
+@font-face {
+  font-family:UindbaseFont;
+  src: url(/fonts/Uindbase/UF1.ttf)format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:Usually-font;
+  src: url(/fonts/usually/Usually-font-Bold.otf)format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
