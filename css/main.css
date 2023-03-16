@@ -141,7 +141,7 @@ body{
   left: 350px;
   top: 360px;
 
-  font-family:"Usually-font";
+  font-family:"Usually-font",sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 130px;
@@ -160,7 +160,7 @@ body{
   top: 8.97%;
   bottom: 83.13%;
 
-  font-family:"Usually-font";
+  font-family:"Usually-font",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 170px;
@@ -224,6 +224,12 @@ body{
 
 }
 
+.btn:hover {
+  width: 207px;
+  height: 55px;
+  font-size: 22px;
+  transition:(0.19, 1, 0.22, 1);
+}
 
 /* section carousel style */
 
@@ -270,7 +276,7 @@ body{
   width: 1568px;
   height: 160px;
 
-  font-family: 'Usually-font';
+  font-family: 'Usually-font',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 140px;
@@ -348,6 +354,12 @@ body{
 
 }
 
+.carousel-btn:hover{
+  width: 207px;
+  height: 55px;
+  font-size: 22px;
+  transition:(0.19, 1, 0.22, 1);
+}
 /* section product style */
 
 
@@ -377,7 +389,7 @@ body{
   width: 1568px;
   height: 160px;
 
-  font-family: 'Usually-font';
+  font-family: 'Usually-font',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 160px;
@@ -415,20 +427,20 @@ body{
 
 .product-title-text{
   width: 679px;
-height: 100px;
+  height: 100px;
 
-font-family: 'UindbaseFont';
-font-style: normal;
-font-weight: 400;
-font-size: 100px;
-line-height: 100px;
+  font-family: 'UindbaseFont',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
 
-text-align: right;
-text-transform: uppercase;
+  text-align: right;
+  text-transform: uppercase;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
-text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* cards style */
@@ -515,7 +527,7 @@ text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
   left: 0px;
   top: 378px;
 
-  font-family: 'UindbaseFont';
+  font-family: 'UindbaseFont',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -555,7 +567,7 @@ text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
   order: 0;
   flex-grow: 0;
 
-  font-family: 'UindbaseFont';
+  font-family: 'UindbaseFont',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -578,7 +590,7 @@ text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
   order: 1;
   flex-grow: 0;
 
-  font-family: 'UindbaseFont';
+  font-family: 'UindbaseFont',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -588,6 +600,10 @@ text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
   text-transform: uppercase;
 
   color: #FFFFFF;
+}
+
+.price-btn:hover{
+  color: #D1C12B;
 }
 
 .see-more{
@@ -603,7 +619,7 @@ text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
   left: 0px;
   top: 473px;
 
-  font-family: 'UindbaseFont';
+  font-family: 'UindbaseFont',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -615,6 +631,11 @@ text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
 
   color: #FFFFFF;
 
+}
+
+.see-more:hover{
+  color: #D1C12B;
+  font-size: 22px;
 }
 
 .connection {
@@ -650,7 +671,7 @@ text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
   z-index: 1;
 
 
-  font-family: 'UindbaseFont';
+  font-family: 'UindbaseFont',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 100px;
@@ -677,7 +698,7 @@ text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
   flex-grow: 0;
   z-index: 0;
 
-  font-family: 'Usually-font';
+  font-family: 'Usually-font',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 180px;
@@ -686,4 +707,187 @@ text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
   text-transform: uppercase;
 
   color: #1F252D;
+}
+
+.cards-nav{
+  position: absolute;
+  left: 9%;
+  right: 35.46%;
+  top: 78.39%;
+  bottom: 0%;
+  
+  overflow: scroll;
+
+}
+.connection-tel {
+  position: absolute;
+  left: 75.13%;
+  right: 8.4%;
+  top: 82.97%;
+  /* bottom: 40.72%; */
+
+  font-family: 'UindbaseFont',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+.connection-mail {
+
+  position: absolute;
+  left: 73.98%;
+  right: 7.29%;
+  top: 84.6%;
+  bottom: 34.08%;
+
+  font-family: 'UindbaseFont',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+
+.connection-social{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding: 0px;
+  width: 98px;
+  height: 15px;
+
+  position: absolute;
+  left: 78.29%;
+  right: 13.51%;
+  top: 86.23%;
+  bottom: 28.78%;
+
+}
+
+.connection-tel:hover,
+.connection-mail:hover{
+  color: #D1C12B;
+}
+
+/* footer style */
+
+.footer {
+  position: absolute;
+  width: 1602px;
+  height: 131px;
+  left: 198px;
+  top: 3663px;
+
+  background: #0B0F14;
+}
+.footer-logo {
+  position: absolute;
+  left: 42.95%;
+  right: 44.87%;
+  top: 29.77%;
+  bottom: 35.88%;
+
+}
+
+.footer-logo img{
+  width: 195px;
+  height: 45px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  
+  position: absolute;
+  width: 85px;
+  height: 15px;
+  left: 1339px;
+  top: 66px;
+  
+}
+.footer-text{
+  position: absolute;
+  left: 45.38%;
+  right: 52.75%;
+  top: 76.34%;
+  bottom: 9.92%;
+  
+  font-family: 'Rosario', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+
+}
+.footer-subtext {
+  position: absolute;
+  left: 48.25%;
+  right: 45.94%;
+  top: 76.34%;
+  bottom: 9.92%;
+  
+  font-family: 'Rosario', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+}
+
+.footer-link1 {
+  position: absolute;
+  left: 12.98%;
+  right: 72.33%;
+  top: 41.98%;
+  bottom: 44.27%;
+
+  font-family: 'Rosario',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.footer-link2 {
+
+  position: absolute;
+  left: 12.92%;
+  right: 66.02%;
+  top: 58.02%;
+  bottom: 28.24%;
+
+  font-family: 'Rosario',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+.footer-link1:hover,.footer-link2:hover{
+  font-size: 16px;
 }
