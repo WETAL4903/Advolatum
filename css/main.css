@@ -293,8 +293,74 @@ body{
   height: 587px;
   left: 219px;
   top: 260px;
+  overflow: hidden;
 
   background: url(/img/photo_2022-10-05\ 23.01.png);
+}
+
+input[name="r"]{
+  display: none;
+}
+
+.slides{
+  width: 400%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: all .6s ease;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.slides-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  width: 921px;
+  height: 0px;
+  left: 382px;
+  top: 842px;
+
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+  margin-left:-20%;
+}
+
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+.bar{
+  width: 161px;
+  height: 0px;
+  margin: 0px 10px;
+  border: 2px solid #FFFFFF;
+}
+
+.bar:hover{
+  opacity: 0.4;
+  transform: all .4s ease;
 }
 
 .carousel > p {
