@@ -295,7 +295,7 @@ body{
   top: 260px;
   overflow: hidden;
 
-  /* background: url(/img/photo_2022-10-05\ 23.01.png); */
+  background: url(/img/photo_2022-10-05\ 23.01.png);
 }
 
 input[name="r"]{
@@ -511,7 +511,7 @@ input[name="r"]{
 
 /* cards style */
 
-.goods-box {
+.goods-box{
   position: absolute;
   width: 1248px;
   height: 593px;
@@ -519,9 +519,13 @@ input[name="r"]{
   top: 2228px;
 
 }
-
-.goods-card1 {
-  position: absolute;
+.goods-box-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.goods-card {
+  /* position: absolute; */
   width: 272px;
   height: 461px;
   left: 9px;
@@ -532,8 +536,8 @@ input[name="r"]{
   border-radius: 10px;
 }
 
-.goods-card2 {
-  position: absolute;
+.goods-card {
+  /* position: absolute; */
   width: 272px;
   height: 461px;
   left: 331px;
@@ -544,8 +548,8 @@ input[name="r"]{
   border-radius: 10px;
 }
 
-.goods-card3 {
-  position: absolute;
+.goods-card {
+  /* position: absolute; */
   width: 272px;
   height: 461px;
   left: 653px;
@@ -556,8 +560,8 @@ input[name="r"]{
   border-radius: 10px;
 }
 
-.goods-card4 {
-  position: absolute;
+.goods-card {
+  /* position: absolute; */
   width: 272px;
   height: 461px;
   left: 975px;
@@ -568,10 +572,7 @@ input[name="r"]{
   border-radius: 10px;
 }
 
-.goods-card1 img,
-.goods-card2 img,
-.goods-card3 img,
-.goods-card4 img {
+.goods-card img {
   top: -36px;
   
   background-size: cover;
@@ -583,11 +584,13 @@ input[name="r"]{
 
 .description {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   
-  position: absolute;
+  /* position: absolute; */
   width: 272px;
   height: 41px;
   left: 0px;
@@ -609,11 +612,13 @@ input[name="r"]{
 .block-price {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   padding: 0px;
   gap: 67px;
 
-  position: absolute;
+  /* position: absolute; */
   width: 272px;
   height: 20px;
   left: 0px;
@@ -622,6 +627,7 @@ input[name="r"]{
 }
 .price {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px 0px 0px 10px;
