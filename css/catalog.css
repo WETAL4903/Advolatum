@@ -1,0 +1,115 @@
+body{
+  position: relative;
+  width: 1920px;
+  height: 3858px;
+  background: linear-gradient(180deg, #0E141C 0%, #0A0F14 100%);
+}
+
+.header {
+  position: absolute;
+  width: 1568px;
+  height: 85px;
+  left: 176px;
+  top: 43px;
+}
+.header-logo-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 164px;
+  height: 50px;
+  padding: 0px 40px 20px 0px;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px -14px;
+}
+
+.header-logo{
+  width: 124px;
+  height: 30px;
+
+  position: absolute;
+  left: 0.95%;
+  right: 0.95%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  height: 50px;
+
+  width: 831px;
+  height: 50px;
+  
+  position: absolute;
+  left: 6.64%;
+  right: 40.37%;
+  top: 0%;
+  bottom: 41.18%;
+
+}
+
+.nav-link{
+  font-family:"UindbaseFont",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 12px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.nav-link:hover,.gender-link:hover{
+  color: #D1C12B;
+}
+
+.gender {
+  display: flex;
+  justify-content:space-between;
+  position: absolute;
+  left: 14.35%;
+  right: 62.04%;
+  top: 82.35%;
+  bottom: 0%;
+  
+}
+
+.gender-link{
+  font-family:"UindbaseFont",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  left: 93.22%;
+  right: 0%;
+  top: 5.29%;
+  bottom: 75.88%;
+  
+}
