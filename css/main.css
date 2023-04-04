@@ -533,6 +533,7 @@ body{
   order: 0;
   flex-grow: 0;
 }
+
 .block-price {
   display: flex;
   flex-direction: row;
@@ -549,6 +550,7 @@ body{
   top: 433px;
 
 }
+
 .price {
   display: flex;
   flex-wrap: wrap;
