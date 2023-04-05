@@ -31,8 +31,8 @@ body{
 }
 
 .header-logo{
-  width: 124px;
-  height: 30px;
+  width: 164px;
+  height: 50px;
 
   position: absolute;
   left: 0.95%;
@@ -225,9 +225,9 @@ body{
 }
 
 .btn:hover {
-  width: 207px;
-  height: 55px;
-  font-size: 22px;
+  width: 206px;
+  height: 54px;
+  font-size: 21px;
   transition:(0.19, 1, 0.22, 1);
 }
 
@@ -345,11 +345,12 @@ body{
 }
 
 .carousel-btn:hover{
-  width: 207px;
-  height: 55px;
-  font-size: 22px;
+  width: 206px;
+  height: 54px;
+  font-size: 21px;
   transition:(0.19, 1, 0.22, 1);
 }
+
 /* section product style */
 
 
@@ -449,7 +450,6 @@ body{
   flex-wrap: wrap;
 }
 .goods-card {
-  /* position: absolute; */
   width: 272px;
   height: 461px;
   left: 9px;
@@ -460,41 +460,6 @@ body{
   border-radius: 10px;
 }
 
-.goods-card {
-  /* position: absolute; */
-  width: 272px;
-  height: 461px;
-  left: 331px;
-  top: 0px;
-
-  background: #10171F;
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-}
-
-.goods-card {
-  /* position: absolute; */
-  width: 272px;
-  height: 461px;
-  left: 653px;
-  top: 0px;
-
-  background: #10171F;
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-}
-
-.goods-card {
-  /* position: absolute; */
-  width: 272px;
-  height: 461px;
-  left: 975px;
-  top: 0px;
-
-  background: #10171F;
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-}
 
 .goods-card img {
   top: -36px;
@@ -514,7 +479,6 @@ body{
   align-items: center;
   padding: 0px;
   
-  /* position: absolute; */
   width: 272px;
   height: 41px;
   left: 0px;
@@ -543,7 +507,6 @@ body{
   padding: 0px;
   gap: 67px;
 
-  /* position: absolute; */
   width: 272px;
   height: 20px;
   left: 0px;
@@ -633,7 +596,8 @@ body{
 
 .see-more:hover{
   color: #D1C12B;
-  font-size: 22px;
+  font-size: 21px;
+  transition:(0.19, 1, 0.22, 1);
 }
 
 .connection {
@@ -717,6 +681,7 @@ body{
   overflow: scroll;
 
 }
+
 .connection-tel {
   position: absolute;
   left: 75.13%;
