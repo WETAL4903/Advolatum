@@ -6,6 +6,16 @@ body {
   background: linear-gradient(180deg, #0E141C 0%, #0A0F14 100%);
 }
 
+.footer {
+  position: absolute;
+  width: 1602px;
+  height: 131px;
+  left: 195px;
+  top: 3197px;
+
+  background: #0B0F14;
+}
+
 .clasic {
   position: absolute;
   width: 914px;
@@ -132,7 +142,6 @@ body {
   transform: rotate(-90deg);
 }
 
-
 .product{
   position: absolute;
   width: 1568px;
@@ -151,9 +160,6 @@ body {
 
 }
 
-.see-more{
-  padding: 25px 0px;
-}
 
 .connection-box{
 
@@ -212,15 +218,8 @@ left: 73.98%;
 right: 7.29%;
 top: 62.6%;
 bottom: 34.08%;
-
 }
 
-.footer {
-  position: absolute;
-  width: 1602px;
-  height: 131px;
-  left: 195px;
-  top: 3197px;
-
-  background: #0B0F14;
+.see-more{
+  padding: 25px 0px;
 }
