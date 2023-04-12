@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/shopping-cart.css">
+  <title>shopping cart</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="nav">
+      <div class="header-logo-box">
+        <a class="header-logo" href=""><img src="/img/icons/Frame 33.png" alt="logo"></a>
+      </div>
+      <div><a class="nav-link" href="/html/index.html">главная</a></div>
+      <div><a class="nav-link" href="/html/collection.html">коллекции</a></div>
+      <div><a class="nav-link" href="/html/aboutUs.html">o нас</a></div>
+      <div><a class="nav-link" href="">контакты</a></div>
+      <div><a class="nav-link" href="/html/ shopping cart.html">корзина</a></div>
+    </div>
+    <div class="gender">
+      <a class="gender-link" href="">девушкам</a>
+      <a class="gender-link" href="">мужчинам</a>
+      <a class="gender-link" href="">унисекс</a>
+    </div>
+    <div class="social">
+      <a href=""><img src="/img/icons/Снимок экрана 2022-09-22 в 22.25 1 (Traced).png" alt="telegram"></a>
+      <a href=""><img src="/img/icons/Снимок экрана 2022-09-22 в 22.26 1 (Traced).png" alt="wk"></a>
+      <a href=""><img src="/img/icons/Group.png" alt="instagram"></a>
+    </div>
+  </header>
+  <main>
+    <div class="shopping-cart">
+      корзина
+    </div>
+    <div class="cart-box">
+      <div class="product-wrapper">
+        <div class="product-wrapper-img">
+          <img src="/img/photo_2022-10-05 23.01.svg" width="150px" height="150px" alt="">
+        </div>
+        <div class="grid-conteiner">
+          <div class="grid-item1">
+            <p>Костюм Advolatum - соцветие</p>
+          </div>
+          <div class="grid-item2"><span>размер: м</span></div>
+          <div class="grid-item3"><span> кол-во: </span></div>
+          <div class="grid-item4"><span> - 1 + </span></div>
+          <div class="grid-item5"><span>стоимость:</span></div>
+          <div class="grid-item6"><span> 3751 ₽ </span></div>
+        </div>
+      </div>
+
+      <div class="product-wrapper">
+        <div class="product-wrapper-img">
+          <img src="/img/photo_2022-10-05 23.01.svg" width="150px" height="150px" alt="">
+        </div>
+        <div class="grid-conteiner">
+          <div class="grid-item1">
+            <p>Костюм Advolatum - соцветие</p>
+          </div>
+          <div class="grid-item2"><span>размер: м</span></div>
+          <div class="grid-item3"><span> кол-во: </span></div>
+          <div class="grid-item4"><span> - 1 + </span></div>
+          <div class="grid-item5"><span>стоимость:</span></div>
+          <div class="grid-item6"><span> 3751 ₽ </span></div>
+        </div>
+      </div>
+    </div>
+    <div class="delivery-description">
+      <p>СУММА доставкИ будет расчитана после ввода данных о месте назначения - город, улица</p>
+    </div>
+    <div class="delivery">
+      <div class="delivery-title">доставка:</div>
+      <div class="delivery-subtitle">500₽</div>
+    </div>
+    <div class="total">
+      <div class="total-title">итого:</div>
+      <div class="total-subtitle">4251₽</div>
+    </div>
+    <div class="personal-inform">
+      <form action="#">
+        <input type="checkbox" id="personal" name="personal-inform" value="согласие на обработку персональных данных">
+        <label for="html">согласие на обработку персональных данных</label>
+      </form>
+      </div>
+      <div class="order-form">
+        <p class="order-form-title">оформление заказа</p>
+        <form action="#" class="order-form1">
+          <fieldset>
+          <legend>Данные получателя</legend>
+          <label for="lname">Фамилия</label>
+          <input type="text" id="lname" name="lname" placeholder="Фамилия">
+          <label for="fname">Имя</label>
+          <input type="text" id="fname" name="fname" placeholder="Имя">
+          <label for="surname">Отчество</label>
+          <input type="text" id="surname" name="surname" placeholder="Отчество">
+        </fieldset>
+        </form>
+      </div>
+      <div class="contact-form">
+        <form action="#" class="contact-tel-form">
+          <fieldset>
+          <legend>Контактный номер телефона</legend>
+          <label for="phone"></label>
+          <input type="tel" id="phone" name="phone" placeholder="+7( - ) -  -  " pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$"required>
+        </fieldset>
+        </form>
+      </div>
+      <div class="location-form">
+        <form action="#">
+          <fieldset>
+          <legend>Данные места доставки</legend>
+          <label for="town">Город</label>
+          <input type="text" id="town" name="town" placeholder="Город">
+          <label for="street">Улица</label>
+          <input type="text" id="street" name="street" placeholder="Улица">
+          <label for="house">Дом</label>
+          <input type="text" id="house" name="house" placeholder="Дом">
+          <label for="flat">Квартира/оффис</label>
+          <input type="text" id="flat" name="flat" placeholder="Кв/оффис">
+        </fieldset>
+        </form>
+      </div>
+      <div class="payment">
+        <form action="#">
+          <input type="checkbox" id="payment" name="payment" value="оплата онлайн">
+          <label for="html">оплата онлайн</label>
+        </form>
+        </div>
+        <div class="cod">
+          <form action="#">
+            <input type="checkbox" id="cod" name="cod" value="наложным платежом">
+            <label for="html">наложным платежом</label>
+          </form>
+          </div>
+    <button type="button" class="cart-btn"><img src="/img/icons/Лого btn(3).png" alt="logo">отправить</button>
+  </main>
+  <footer>
+    <div class="footer">
+      <a class="footer-logo" href=""><img src="/img//icons/Лого.png" alt="logo"></a>
+      <div class="footer-social">
+        <a href=""><img src="/img/icons/Снимок экрана 2022-09-22 в 22.25 1 (Traced).png" alt="telegram"></a>
+        <a href=""><img src="/img/icons/Снимок экрана 2022-09-22 в 22.26 1 (Traced).png" alt="wk"></a>
+        <a href=""><img src="/img/icons/Group.png" alt="instagram"></a>
+      </div>
+      <a class="footer-link1" href="#">политика конфиденциальности</a>
+      <a class="footer-link2" href="#">согласие на обработку персональных данных</a>
+      <p class="footer-text">2022</p>
+      <p class="footer-subtext">GruboGovorya</p>
+    </div>
+  </footer>
+</body>
+
+</html>
